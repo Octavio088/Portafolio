@@ -1,0 +1,29 @@
+Objetivo del Juego
+El objetivo principal del memorama es encontrar todas las parejas de cartas iguales en el menor numero de movimientos posible.
+
+Reglas Basicas
+Inicio del Juego: El tablero de juego presenta un conjunto de cartas boca abajo y te da solo unos segundos al principio de cada partida para observar las cartas descubiertas.
+Turnos: En cada turno, puedes voltear dos cartas.
+Parejas: Si las dos cartas son iguales, permanecen volteadas hacia arriba y has encontrado una pareja.
+Desigualdad: Si las dos cartas no son iguales, se voltearan nuevamente hacia abajo despues de unos segundos.
+Final del Juego: El juego termina cuando todas las parejas de cartas han sido encontradas.
+
+Consejos y Estrategias
+Memoriza las Posiciones: Trata de recordar las posiciones de las cartas que has volteado previamente para facilitar encontrar las parejas.
+Atencion Plena: Concentrate en el juego y evita distracciones para mejorar tu rendimiento.
+Patrones y Sectores: Divide mentalmente el tablero en sectores y recuerda las cartas por secciones para no perderte.
+Jugadas Estrategicas: Si no recuerdas la posicion de una carta, intenta voltear una que no hayas visto antes para aumentar tus posibilidades de exito en futuros turnos.
+Practica y Paciencia: La práctica constante mejora tu memoria visual y espacial. No te desesperes si no encuentras todas las parejas rapidamente; con el tiempo mejoraras.
+
+Modos de Juego
+Modo Clasico: Encuentra todas las parejas sin limite de tiempo.
+
+Controles
+Flecha Izquierda, derecha, arriba y abajo: Se usan para moverte libremente por todo el tablero y los menus del juego.
+Menu: Accede al menu principal para jugar, mostrar las tablas de puntuacion, la ayuda y para salir del juego.
+Enter: Es la tecla que se usa para escoger que carta revelar en el juego y la carta que accede al menu del juego.
+
+Preguntas Frecuentes
+¿Que hago si me quedo atascado? No te preocupes, sigue volteando cartas y trata de memorizar las nuevas posiciones. La practica te ayudara a mejorar.
+¿Puedo jugar con amigos? Algunos juegos de memorama tienen modos multijugador donde puedes competir contra amigos o familiares.
+¡Diviertete y desafia tu memoria con el memorama! Con el tiempo, veras como mejoras tu capacidad para recordar y encontrar las parejas mas rapidamente.
