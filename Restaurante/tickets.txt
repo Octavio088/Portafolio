@@ -1,0 +1,190 @@
+----- TICKET -----
+Fecha: 2025-05-21 06:11:45
+- Hamburguesa
+- Tacos
+- Refresco
+- Pastel
+
+----- TICKET -----
+Fecha: 2025-05-21 06:15:24
+Hamburguesa - $50.0
+Tacos - $30.0
+Refresco - $20.0
+Agua - $15.0
+Total: $115.00
+
+----- TICKET -----
+Fecha: 2025-05-21 06:15:44
+Pizza - $80.0
+Café - $25.0
+Helado - $25.0
+Total: $130.00
+
+----- TICKET -----
+Fecha: 2025-05-21 06:39:32
+Tacos - $30.0
+Refresco - $20.0
+Helado - $25.0
+Flan - $20.0
+Café - $25.0
+Total: $120.00
+
+----- TICKET -----
+Fecha: 2025-05-21 06:51:48
+Cliente: Alfredo
+Mesa: 8
+Hamburguesa - $50.0
+Tacos - $30.0
+Refresco - $20.0
+Agua - $15.0
+Total: $115.00
+
+----- TICKET -----
+Fecha: 2025-05-21 06:55:15
+Cliente: Alfredo
+Mesa: 5
+Hamburguesa - $50.0
+Tacos - $30.0
+Refresco - $20.0
+Café - $25.0
+Café - $25.0
+Café - $25.0
+Total: $175.00
+
+----- TICKET -----
+Fecha: 2025-05-21 07:19:40
+Cliente: Alfredo
+Mesa: 1
+Hamburguesa - $50.0
+Tacos - $30.0
+Refresco - $20.0
+Helado - $25.0
+Total: $125.00
+
+----- TICKET -----
+Fecha: 2025-05-21 07:20:15
+Cliente: Juan
+Mesa: 8
+Tacos - $30.0
+Helado - $25.0
+Refresco - $20.0
+Pastel - $35.0
+Total: $110.00
+
+----- TICKET -----
+Fecha: 2025-05-21 11:09:29
+Cliente: Alfredo
+Mesa: 4
+Hamburguesa - $50.0
+Tacos - $30.0
+Refresco - $20.0
+Agua - $15.0
+Helado - $25.0
+Pastel - $35.0
+Total: $175.00
+
+----- TICKET -----
+Fecha: 2025-05-21 11:09:49
+Cliente: Luis
+Mesa: 2
+Hamburguesa - $50.0
+Tacos - $30.0
+Refresco - $20.0
+Agua - $15.0
+Total: $115.00
+
+----- TICKET -----
+Fecha: 2025-05-21 11:13:07
+Cliente: Juan
+Mesa: 1
+Hamburguesa - $50.0
+Tacos - $30.0
+Refresco - $20.0
+Agua - $15.0
+Total: $115.00
+
+----- TICKET -----
+Fecha: 2025-05-21 11:14:58
+Cliente: Alfredo
+Mesa: 2
+Hamburguesa - $50.0
+Agua - $15.0
+Refresco - $20.0
+Pastel - $35.0
+Total: $120.00
+
+----- TICKET -----
+Fecha: 2025-05-21 11:15:15
+Cliente: Luis
+Mesa: 3
+Pastel - $35.0
+Agua - $15.0
+Refresco - $20.0
+Helado - $25.0
+Helado - $25.0
+Pastel - $35.0
+Total: $155.00
+
+----- TICKET -----
+Fecha: 2025-05-21 11:17:17
+Cliente: Alfredo
+Mesa: 8
+Hamburguesa - $50.0
+Agua - $15.0
+Refresco - $20.0
+Tacos - $30.0
+Total: $115.00
+
+----- TICKET -----
+Fecha: 2025-05-21 11:18:07
+Cliente: Alfredo
+Mesa: 9
+Agua - $15.0
+Hamburguesa - $50.0
+Tacos - $30.0
+Refresco - $20.0
+Helado - $25.0
+Pastel - $35.0
+Total: $175.00
+
+----- TICKET -----
+Fecha: 2025-05-21 11:21:58
+Cliente: Juanito
+Mesa: 3
+Hamburguesa - $50.0
+Agua - $15.0
+Flan - $20.0
+Hamburguesa - $50.0
+Café - $25.0
+Total: $160.00
+
+----- TICKET -----
+Fecha: 2025-05-21 11:22:14
+Cliente: Alan
+Mesa: 9
+Hamburguesa - $50.0
+Tacos - $30.0
+Refresco - $20.0
+Agua - $15.0
+Pastel - $35.0
+Total: $150.00
+
+----- TICKET -----
+Fecha: 2025-05-21 18:23:48
+Cliente: Juanito
+Mesa: 6
+Tacos - $30.0
+Tacos - $30.0
+Refresco - $20.0
+Pastel - $35.0
+Refresco - $20.0
+Total: $135.00
+
+----- TICKET -----
+Fecha: 2025-05-27 18:33:15
+Cliente: Alfredito
+Mesa: 1
+Tacos - $30.0
+Hamburguesa - $50.0
+Total: $80.00
+
