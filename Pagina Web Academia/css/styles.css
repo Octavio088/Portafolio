@@ -1,0 +1,797 @@
+
+body{padding: 0;margin: 0;font-family: Kanit;font-size: 14px;} /*ajustamos el borde y el padding del body para abarcar toda la pantalla*/
+/*------------------------------------------- Menú Desplegable ---------------------------------------------------------*/
+nav{
+    background-color: #192A56;
+    font-size: 20px;
+    width: 100%;
+    font-family: Share Tech;
+    z-index: 1000;
+}
+.horizontal{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1000;
+}
+.horizontal>li>a{
+    display: block;
+    text-decoration: none;
+    padding: 15px 20px;
+    color: #dedede;
+    z-index: 1000;
+}
+.horizontal>li>a:hover{
+    background-color: #FF8C00;
+}
+.vertical>li:hover{
+    background-color: #FF8C00;
+}
+.vertical{
+    padding: 0;
+    margin: 0;
+    min-width: 120px;
+    position: absolute;
+    list-style: none;
+    display: none;
+    background-color: #192A56;
+    z-index: 1000;
+}
+.vertical>li>a{
+    display: block;
+    text-decoration: none;
+    color: #dedede;
+    padding: 15px 15px 15px 20px;   
+    z-index: 1000; 
+}
+.horizontal>li:hover .vertical{
+    display: block;
+}
+/*----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------  Banner  -----------------------------------------------------------*/
+.img_banner{
+    width: 100%;
+    height: 600px;
+}
+.items{
+    position: absolute;
+    top: 180px;
+    left: 600px;
+    text-align: center;
+    font-size: 34px;
+    color: #dedede;
+    font-family: Oswald;
+}
+.items>button{
+    border-radius: 15px;
+    border: 0;
+    font-size: 18px;
+    background-color: #192A56;
+    color: #dedede;
+    padding: 15px;
+    font-family: Outfit;
+}
+.items>button:hover{
+    background-color: #FF8C00;
+    color: #192A56;
+}
+/*----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------INFORMACIÓN-----------------------------------------------------------*/
+.info{
+    background-color: #283747;
+    height: 320px;
+    padding: 50px;
+    color: azure;
+    display: flex;
+    justify-content:space-around;
+}
+.parrafo{
+    width: 700px;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+}
+.parrafo>ul{
+    padding: 0;
+    margin: 0;
+}
+.parrafo>h2{
+    font-size: 28px;
+    color: #ffb84f;
+    font-family: Sniglet;
+}
+/*----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------HISTORIA-----------------------------------------------------------*/
+.histo{
+    background-color: #507093;
+    height: 320px;
+    padding: 50px;
+    color: azure;
+    display: flex;
+    justify-content:space-around;
+}
+/*----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------Pie de pagina-----------------------------------------------------------*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #192A56;
+    color: #dedede;
+    font-family: Poetsen One;
+}
+.Contenidos{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+}
+.Contenidos>ul{
+    list-style: none;
+}
+.Contenidos>ul>li>h3{
+    margin-bottom:0px;
+    font-size: 20px;
+    color: #FF8C00;
+}
+.Contenidos>ul>li>a{
+    text-decoration: none;
+    color: #dedede;
+    font-size: 18px;
+}
+.Contenidos>ul>li>a:hover{
+    text-decoration:underline;
+}
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------Pagina del Personal-----------------------------------------------------------*/
+/*-----------------------------------------------Galeria----------------------------------------------------------------*/
+#teachers>h2{
+    color: #FF8C00;
+    font-size: 28px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.maestros{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.galeria_maestros{
+    display: flex;
+    justify-content: space-around;
+}
+.circle-text>h2{
+    color: #192A56;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.circle-text>p{
+    color: #192A56;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.circle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.circle:hover {
+    transform: rotate(360deg);
+    box-shadow: 0 0 10px 5px #FF8C00; /* Borde iluminado */
+}
+.circle-text {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+/*-----------------------------------------------------------------------------------------------------------------*/
+.divisor{
+    width: 100%;
+    height: 50px;
+    background-color: #556a9f;
+}
+.iti{
+    background-color: #283747;
+    height: 520px;
+    padding: 50px;
+    color: azure;
+    display: flex;
+    justify-content:space-around;
+}
+.parrafo_iti{
+    width: 700px;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+}
+.parrafo_iti>h2{
+    font-size: 28px;
+    color: #ffb84f;
+    font-family: Sniglet;
+}
+.principal_iti{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-family: Poetsen One;
+    background-color: #507093;
+}
+.principal_iti>h2{
+    color: #dedede;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+.galeria_iti{
+    display: flex;
+    flex-direction: row;
+}
+.iti_V{
+    padding: 25px;
+}
+.iti_V>img{
+    width: 450px;
+    height: 350px;
+}
+.iti_V>p{
+    width: 450px;
+    color: #dedede;
+    text-align: justify;
+}
+.iti_V>h2{
+    color: #ffb84f;
+    text-align: center;
+}
+.iti_V>ul{
+    width: 450px;
+    color: #dedede;
+    text-align: justify;
+    padding: 0;
+    list-style: square;
+}
+/*------------------------------------------------ Galeria y Videos-----------------------------------------------------------------*/
+.slider-box{
+    width: 1280px;
+    height: 580px;
+    margin: 0px auto 0px;
+    overflow: hidden;
+}
+.slider-box>ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 400%;
+    animation: slide 15s infinite alternate ease-in-out;
+}
+.slider-box>li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+.slider-box img{
+    width: 1280px;
+    height: 550px;
+}
+@keyframes slide {
+    0%{ margin-left: 0;}
+    16.6%{ margin-left: 0;}
+
+    16.6%{ margin-left: -100%;}
+    33.2%{ margin-left: -100%;}
+
+    33.2%{ margin-left: -200%;}
+    49.8%{ margin-left: -200%;}
+    
+    49.8%{ margin-left: -300%;}
+    66.4%{ margin-left: -300%;}
+
+    66.4%{ margin-left: -400%;}
+    83%{ margin-left: -400%;}
+
+    83%{ margin-left: -500%;}
+    100%{ margin-left: -500%;}
+}
+@media(max-width:250px){
+    body{
+        padding: 50px;
+    }
+    .slider-box{
+        width: 80%;
+    }
+}
+#Fotos{
+    margin: 0;
+    padding: 0;
+    background-color: #283747;
+}
+#Fotos>h2{
+    text-align: center;
+    padding-top:15px;
+    padding-bottom: 5px;
+    width: 100%;
+    background-color: #507093;
+    color: #dedede;
+    font-size: 28px;
+    font-family: Outfit;
+}
+.video_principal{
+    width: 1280px;
+    margin: 0px 120px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+#Videos{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 800px;
+    background-color: #283747;
+    flex-direction: column;
+    justify-content:space-around;
+}
+#Videos>h2{
+    text-align: center;
+    top: 0;
+    padding-top:5px;
+    padding-bottom: 5px;
+    width: 100%;
+    background-color: #507093;
+    color: #dedede;
+    font-size: 28px;
+    font-family: Outfit;
+}
+/*-------------------------------------------------------------------------------------------------*/
+.slider-box_2{
+    width: 580px;
+    height: 350px;
+    overflow: hidden;
+}
+.slider-box_2>ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 400%;
+    animation: slide_2 15s infinite alternate ease-in-out;
+}
+.slider-box_2>li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+.slider-box_2 img{
+    width: 580px;
+    height: 320px;
+}
+@keyframes slide_2 {
+    0%{ margin-left: 0;}
+    20%{ margin-left: 0;}
+
+    20%{ margin-left: -100%;}
+    40%{ margin-left: -100%;}
+
+    40%{ margin-left: -200%;}
+    60%{ margin-left: -200%;}
+    
+    60%{ margin-left: -300%;}
+    80%{ margin-left: -300%;}
+
+    80%{ margin-left: -400%;}
+    100%{ margin-left: -400%;}
+}
+@media(max-width:250px){
+    body{
+        padding: 50px;
+    }
+    .slider-box{
+        width: 80%;
+    }
+}
+.Actividades{
+    width: 1400px;
+    padding-left: 120px;
+    display: flex;
+    flex-direction: row;
+    background-color: #dedede;
+}
+.pio{
+    width: 700px;
+}
+#process{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.llaves {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    color: #FF8C00;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.Vinculo{
+    color: #FF8C00;
+    text-decoration: none;
+}
+.card-description {
+    font-size: 1em;
+    text-align: justify;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+.my-4 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  .post-preview > a {
+    color: #212529;
+  }
+  .post-preview > a:focus, .post-preview > a:hover {
+    text-decoration: none;
+    color: #0085A1;
+  }
+  .post-preview > a > .post-title {
+    font-size: 1.875rem;
+    margin-top: 1.875rem;
+    margin-bottom: 0.625rem;
+  }
+  .post-preview > a > .post-subtitle {
+    font-weight: 300;
+    margin-bottom: 0.625rem;
+  }
+  .post-preview > .post-meta {
+    font-size: 1.125rem;
+    font-style: italic;
+    margin-top: 0;
+    color: #6c757d;
+  }
+  .post-meta>a{
+    text-decoration: none;
+    color: #6c757d;
+  }
+  .post-preview > a:focus, .post-preview > a{
+    text-decoration: none;
+  }
+  @media (min-width: 992px) {
+    .post-preview > a > .post-title {
+      font-size: 2.25rem;
+    }
+  }
+.container{
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 80%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: 40px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+/*-----------------------------------------INFORMACIÓN-----------------------------------------------------------*/
+.certi{
+    background-color: #507093;
+    height: 320px;
+    padding: 50px;
+    color: azure;
+    display: flex;
+    justify-content:space-around;
+}
+.parrafo_certi{
+    width: 700px;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+}
+.parrafo_certi>ul{
+    font-size: 28px;
+    color: #ffb84f;
+    padding: 0;
+    margin: 0;
+}
+.parrafo_certi>h2{
+    font-size: 28px;
+    color: #ffb84f;
+    font-family: Sniglet;
+}
+.Listas_Certis{
+    display: flex;
+    width: 800px;
+}
+.Listas_Certis>ul>h2{
+    color: #507093;
+    text-align: center;
+}
+/*-----------------------------------------HISTORIA-----------------------------------------------------------*/
+.Tier_list{
+    background-color: #fff;
+    height: 750px;
+    padding: 0px;
+    color: #192A56;
+    display: flex;
+    justify-content:space-around;
+}
+.Listas_Certis>ul>li{
+    list-style: square;
+}
+.parrafo_list{
+    width: 1300px;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+}
+.parrafo_list>h2{
+    font-size: 28px;
+    color: #ffb84f;
+    font-family: Sniglet;
+}
+.Yudi{
+    display: flex;
+}
+/*-----------------------------------------Egresados----------------------------------------------------------*/
+.info_concursos{
+    background-color: #283747;
+    height: 440px;
+    padding: 50px;
+    padding-top: 10px;
+    color: azure;
+    display: flex;
+    justify-content:space-around;
+}
+.parrafo_concursos{
+    width: 700px;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+.parrafo_concursos>h2{
+    font-size: 28px;
+    text-align: justify;
+    color: #ffb84f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parrafo_concursos>ul{
+    padding: 0;
+    margin: 0;
+}
+.parrafo_concursos>ul>li{
+    padding-bottom: 8px;
+    list-style:square;
+    color: #dedede    
+}
+.parrafo_concursos>ul>h3{
+    color: #fff;
+    font-family: Verdana;
+}
+/*--------------------------------------------------------------------------------------*/
+#Alumnos{
+    display: flex;
+    flex-direction: column;
+}
+#Alumnos>h2{
+    color: #192A56;
+    text-align: center;
+    font-size: 28px;
+}
+.Galeria_Alumno{
+    margin: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.foto{
+    position: relative;
+    width: 600px;
+    height: 350px;
+}
+.foto>img:hover{
+    filter: brightness(0.6);
+}
+.foto:hover .content{
+    opacity: 1;
+}
+.content{
+    height: fit-content;
+    width: 100%;
+    font-size: 21px;
+    color: #fff;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    top: 50px;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: 0.6s;
+}
+/*-----------------------------------------  Banner  2 -----------------------------------------------------------*/
+.items_2{
+    position: absolute;
+    top: 180px;
+    left: 480px;
+    text-align: center;
+    font-size: 34px;
+    color: #dedede;
+    font-family: Oswald;
+}
+/*-----------------------------------------  Blog Extra -----------------------------------------------------------*/
+.posteo {
+    width: 100%;
+    margin: 0 0;
+    border: 0px;
+    overflow: hidden;
+}
+#post-form {
+    margin-top: 20px;
+}
+
+#post-form input,
+#post-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+#post-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#post-form button:hover {
+    background-color: #555;
+}
+.post {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+}
+.post h2 {
+    font-size: 1.875rem;
+    margin-top: 1.875rem;
+    margin-bottom: 0.625rem;
+}
+.post h3 {
+    color: #212529;
+    font-weight: 300;
+    margin-bottom: 0.625rem;
+}
+.post p {
+    font-size: 1.125rem;
+    font-style: italic;
+    margin-top: 0;
+    color: #6c757d;
+  }
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------Banner de docentes-----------------------------------------------------------*/
+.items_docentes{
+    position: absolute;
+    top: 180px;
+    left: 500px;
+    text-align: center;
+    font-size: 36px;
+    color: #dedede;
+    font-family: Oswald;
+}
+.items_proyectos{
+    position: absolute;
+    top: 180px;
+    left: 540px;
+    text-align: center;
+    font-size: 36px;
+    color: #dedede;
+    font-family: Oswald;
+}
+/*-----------------------------------------Proyectos-----------------------------------------------------------*/
+#proyectos>h1{
+    font-size: 28px;
+}
+#proyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.project-image-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: -75px;
+    border: 5px solid #fff;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-content {
+    padding: 20px;
+}
+
+.project-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.project-description {
+    font-size: 1em;
+    color: #555;
+}
+/*----------------------------------------------------------------------------------------------------*/
