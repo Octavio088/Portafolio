@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #1a1a2e; /* Fondo oscuro */
+            color: #FFF; /* Texto en blanco */
+            padding: 20px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+            text-align: center;
+            color: #4070F4; /* Azul resalta el título */
+        }
+
+        .slide-container {
+            width: 100%;
+            max-width: 1200px;
+            padding: 40px;
+            background-color: #0f3460; /* Fondo más oscuro para la sección */
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .slide-content {
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .card-wrapper {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            width: 320px;
+            border-radius: 15px;
+            background-color: #16213e; /* Fondo de las tarjetas */
+            color: #FFF; /* Texto en blanco */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .imagen-content, .card-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px 14px;
+        }
+
+        .imagen-content {
+            position: relative;
+            row-gap: 5px;
+            padding: 25px;
+        }
+
+        .overlay {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #4070F4;
+            border-radius: 15px 15px 0 15px;
+        }
+
+        .card-imagen {
+            position: relative;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background-color: #FFF;
+            padding: 3px;
+            z-index: 1;
+        }
+
+        .card-imagen .card-img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #4070F4;
+        }
+
+        .name {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #FFF;
+        }
+
+        .description {
+            margin-top: 10px;
+            font-size: 1rem;
+            color: #dcdcdc; /* Gris claro */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contactos</h1>
+    <div class="slide-container">
+        <div class="slide-content">
+            <div class="card-wrapper">
+                <div class="card">
+                    <div class="imagen-content">
+                        <span class="overlay"></span>
+                        <div class="card-imagen">
+                            <img src="img/Chui.png" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Jesús Antonio Rocha</h2>
+                        <p class="description">Carrera: Tecnologías de la Información</p>
+                        <p class="description">Correo: 183368@upslp.edu.mx</p>
+                        <p class="description">Rol: Backend - Base de Datos</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imagen-content">
+                        <span class="overlay"></span>
+                        <div class="card-imagen">
+                            <img src="img/Alejandro.png" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Alejandro Osorno Beltrán</h2>
+                        <p class="description">Carrera: Tecnologías de la Información</p>
+                        <p class="description">Correo: 185085@upslp.edu.mx</p>
+                        <p class="description">Rol: Frontend - Base de Datos</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imagen-content">
+                        <span class="overlay"></span>
+                        <div class="card-imagen">
+                            <img src="img/Octavio.png" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Octavio Vázquez Solorio</h2>
+                        <p class="description">Carrera: Tecnologías de la Información</p>
+                        <p class="description">Correo: 183955@upslp.edu.mx</p>
+                        <p class="description">Rol: Backend - Manager</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imagen-content">
+                        <span class="overlay"></span>
+                        <div class="card-imagen">
+                            <img src="img/Gus.png" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Gustavo Zapata Baltierra</h2>
+                        <p class="description">Carrera: Tecnologías de la Información</p>
+                        <p class="description">Correo: 183382@upslp.edu.mx</p>
+                        <p class="description">Rol: Backend - Frontend</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
